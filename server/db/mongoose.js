@@ -1,7 +1,7 @@
 var mongoose=require('mongoose');
 
 mongoose.Promise=global.Promise;
-mongoose.connect('mongodb+srv://vasujain314:jain314jain@cluster0-nauop.mongodb.net/Users?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://<add access>@cluster0-nauop.mongodb.net/Users?retryWrites=true&w=majority',{
     useUnifiedTopology: true,
     useNewUrlParser: true
 });
